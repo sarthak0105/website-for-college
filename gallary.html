@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery</title>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    .navbar .logo a{
+        color: white ;
+        font-size: 30px;
+        font-weight: bold;
+        float: inline-start;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: italic;
+        
+
+    }
+
+    .navbar{
+       background-color:black;
+     
+
+       overflow : hidden;
+    }
+    
+ 
+    
+    .navbar a {
+        float: right;
+        display: block;
+        color:white;
+        text-align: center;
+        padding: 30px 30px;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+
+    }
+    
+    .navbar a:hover {
+        background-color: white;
+        color: black;
+       border-radius: 30px;
+       box-sizing: border-box;
+    }
+    header{
+        font-size: 24px;
+        font-style: 'Dokdo', cursive;
+        text-align: center;
+    }
+    
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+    }
+    
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+
+    }
+    
+    .gallery-item {
+        flex: 1 0 300px; /* Flexbox: grow, shrink, basis */
+        margin: 10px;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+    
+    .gallery-item img {
+        width: 100%;
+        height: auto;
+        transition: transform 0.3s ease;
+    }
+    
+    .gallery-item:hover img {
+        transform: scale(1.1);
+    }
+</style>
+</head>
+<body>
+   
+    <div class="navbar">
+        <div class="logo"><a href="#">Resort Padma</a></div>
+       
+        <a href="book now.html">Book Now</a>
+        <a href="contact us.html">Contact Us</a>
+        <a href="gallary.html   ">Gallery</a>
+        <a href="#home">Home</a>  
+    </div>
+    <header>
+        <h2> Gallery</h2>
+    </header>
+    <hr/>
+
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src= alt="Image 1">
+        </div>
+        <div class="gallery-item">
+            <img src="1.jfif">
+        </div>
+        <div class="gallery-item">
+            <img src="2.jfif">
+        </div>
+        <div class="gallery-item">
+            <img src="3.jfif">
+        </div>
+         <div class="gallery-item">
+            <img src="4.jfif">
+        </div>
+         <div class="gallery-item">
+            <img src="5.jfif">
+        </div>
+         <div class="gallery-item">
+            <img src="8.jfif">
+        </div>
+         <div class="gallery-item">
+            <img src="9.jfif">
+        </div> 
+        
+    </div>
+
+</body>
+</html>
